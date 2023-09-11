@@ -104,9 +104,9 @@ def main():
         PASSWORD == '' or 
         COURSE_TYPE == '' or 
         COURSE_CODE == '' or 
-        TEACHER_CODE == ''):
+        SERIAL_CODE == ''):
         
-        print("请填写USERNAME, PASSWORD, COURSE_TYPE, COURSE_CODE 和 TEACHER_CODE的正确值。")
+        print("请填写USERNAME, PASSWORD, COURSE_TYPE, COURSE_CODE 和 SERIAL_CODE的正确值。")
         exit()
 
     session = requests.Session()
